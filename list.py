@@ -1,0 +1,15 @@
+a=[99,87,34,55,10]
+print(a)
+a.pop()
+print(a)
+a.pop(2)
+print(a)
+a.insert(2,30)
+print(a)
+a.reverse()
+print(a)
+b=[12,23,43,44]
+a.extend(b)
+print(a)
+a.remove(43)
+print(a)
