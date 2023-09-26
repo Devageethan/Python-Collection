@@ -1,0 +1,9 @@
+a=(12,21,33,43,"deva")
+b=(34,55,54,76)
+c=list(a)
+print(a)
+print(b)
+print(c)
+print(a[0])
+c[0]=99
+print(c)
