@@ -1,0 +1,19 @@
+a={'hi','hello',77}
+print(a)
+a.add(33)
+a.add(32)
+print(a)
+a.remove(33)
+print(a)
+a.discard(32)
+print(a)
+b=set((44,54,66,77))
+print(b)
+a.update(b)
+print(a)
+c=[12,11,True]
+a.update(c)
+print(a)
+b.clear()
+print(b)
+del b

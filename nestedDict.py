@@ -1,0 +1,28 @@
+a={
+    'n':'deva',
+    'age':23,
+}
+b={
+    'n':'nobi',
+    'age':21,
+}
+mydict={
+    'a':a,
+    'b':b
+}
+print(mydict)
+
+dic={'c':
+{
+    1:100,
+    2:200,
+},
+    'd':{
+        3:300,
+        4:400
+    }
+}
+print(dic)
+print(dic['d'])
+print(mydict['a'])
+print(mydict['b']['n'])

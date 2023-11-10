@@ -1,0 +1,21 @@
+dict1={
+    'name':"deva",
+    'age':"23",
+}
+print(dict1)
+print(len(dict1))
+print(type(dict1))
+print(dict1.keys())
+print(dict1.get('age'))
+print(dict1.values())
+dict2={
+    1:200,
+    2:300,
+}
+a=dict2.copy()
+print(a)
+c=dict(dict1)
+print(c)
+print(c.items())
+#check
+if 'name' in c:print('s')

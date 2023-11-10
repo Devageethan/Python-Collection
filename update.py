@@ -1,0 +1,19 @@
+d={
+    'name':'devageethan',
+    'age':'23',
+    'year':2000
+}
+print(d)
+d['color']='blue'
+print(d)
+d.update({'clg':'tpgit'})
+print(d)
+#remove
+d.pop('color')
+print(d)
+d.popitem()
+print(d)
+del d['year']
+print(d)
+d.clear()
+print(d)
